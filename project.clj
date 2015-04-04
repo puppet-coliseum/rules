@@ -12,7 +12,7 @@
   :source-paths ["src"]
   :test-paths ["test"]
 
-  :profiles {:dev {:dependencies [[org.clojure/test.check "0.6.2"]
+  :profiles {:dev {:dependencies [[org.clojure/test.check "0.7.0"]
                                   [criterium "0.4.3"]]
                    :global-vars {*warn-on-reflection* false
                                  *assert* true}
